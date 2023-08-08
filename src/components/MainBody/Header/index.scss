@@ -1,0 +1,14 @@
+.header {
+  flex-basis: 10%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+  button {
+    height: 50%;
+    border: 0.01rem solid black;
+    border-radius: 5%;
+    background: #e1f131;
+    cursor: pointer;
+  }
+}

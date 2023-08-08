@@ -1,0 +1,17 @@
+.sidebar-container {
+  position: absolute;
+  max-width: 30%;
+  transform: translate(-150%);
+  z-index: 5;
+  background: white;
+  height: 100vh;
+  transition: transform 0.2s ease-in-out;
+}
+
+@media (min-width: 1024px) {
+  .sidebar-container {
+    position: unset;
+    width: 25%;
+    transform: translate(0);
+  }
+}
