@@ -6,7 +6,7 @@ export const LeftPanel = () => {
       <ul>
         <li>HOME</li>
         <li>SKILLS</li>
-        <li>PROJECT</li>
+        <li>PROJECTS</li>
         <li>CONTACT</li>
       </ul>
     </nav>

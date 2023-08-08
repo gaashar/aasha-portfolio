@@ -3,9 +3,24 @@
   max-width: 30%;
   transform: translate(-150%);
   z-index: 5;
-  background: white;
+  background: #a283f0;
   height: 100vh;
   transition: transform 0.2s ease-in-out;
+
+  .closeButton {
+    position: absolute;
+    width: 10%;
+    font-size: 1.3rem;
+    background: none;
+    border: none;
+    right: 10px;
+    top: 10px;
+  }
+}
+
+.open {
+  width: 25%;
+  transform: translate(0);
 }
 
 @media (min-width: 1024px) {
@@ -13,5 +28,9 @@
     position: unset;
     width: 25%;
     transform: translate(0);
+
+    .closeButton {
+      visibility: hidden;
+    }
   }
 }
