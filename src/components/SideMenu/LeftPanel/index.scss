@@ -13,6 +13,11 @@
     color: rgb(225, 241, 49);
     font-size: larger;
 
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
     li {
       padding: 5px 0;
       position: relative;
@@ -37,5 +42,11 @@
     li:hover:before {
       width: 100%;
     }
+  }
+}
+
+@media (max-width: 425px) {
+  .nav-container li {
+    font-size: 0.8rem;
   }
 }

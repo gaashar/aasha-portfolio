@@ -1,13 +1,22 @@
+import { Link } from "react-router-dom";
 import "./index.scss";
 
 export const LeftPanel = () => {
   return (
     <nav class="nav-container">
       <ul>
-        <li>HOME</li>
-        <li>SKILLS</li>
-        <li>PROJECTS</li>
-        <li>CONTACT</li>
+        <Link to="/">
+          <li>HOME</li>
+        </Link>
+        <Link to="/skills">
+          <li>SKILLS</li>
+        </Link>
+        <Link to="/projects">
+          <li>PROJECTS</li>
+        </Link>
+        <Link to="/contact">
+          <li>CONTACT</li>
+        </Link>
       </ul>
     </nav>
   );

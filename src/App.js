@@ -1,7 +1,12 @@
+import { BrowserRouter } from "react-router-dom";
 import { Portfolio } from "./components/Portfolio";
 
 function App() {
-  return <Portfolio />;
+  return (
+    <BrowserRouter>
+      <Portfolio />
+    </BrowserRouter>
+  );
 }
 
 export default App;
