@@ -14,9 +14,6 @@ export const LeftPanel = () => {
         <Link to="/projects">
           <li>PROJECTS</li>
         </Link>
-        <Link to="/contact">
-          <li>CONTACT</li>
-        </Link>
       </ul>
     </nav>
   );

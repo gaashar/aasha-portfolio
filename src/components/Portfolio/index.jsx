@@ -12,14 +12,14 @@ export const Portfolio = () => {
   return (
     <div class="portfolio-container">
       <SideMenu />
-      <main class="mainbody-container">
+      <main>
         <Header />
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Contact />
       </main>
     </div>
   );

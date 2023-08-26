@@ -9,7 +9,7 @@ export const SideMenu = () => {
   return (
     <aside class="sidebar-container" id="sideMenu">
       <button class="closeButton" onClick={() => handleMenuClose()}>
-        x
+        <i class="gg-close" />
       </button>
       <div class="left-menu">
         <div class="photo-container">

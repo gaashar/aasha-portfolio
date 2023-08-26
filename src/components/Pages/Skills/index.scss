@@ -1,0 +1,26 @@
+.skills {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  .card {
+    padding: 10px 25px;
+    border: 1px solid #a283f0;
+    border-radius: 8px;
+    width: 315px;
+    height: 360px;
+    ul {
+      text-align: left;
+      padding: 10px 0 0 12px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 250px;
+      li {
+        list-style: none;
+        margin-bottom: 16px;
+      }
+    }
+  }
+}

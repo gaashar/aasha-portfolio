@@ -4,18 +4,15 @@
 }
 
 main {
-  position: relative;
   width: 75%;
   float: right;
   height: 100vh;
   display: flex;
   flex-direction: column;
 
-  .mainbody-container {
-    flex-basis: 80%;
-    margin: auto;
-    height: 100%;
-    padding: 20% 5%;
+  .main-body {
+    height: 75%;
+    padding: 5% 0;
     text-align: center;
   }
 }
