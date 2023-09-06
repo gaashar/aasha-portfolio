@@ -1,6 +1,7 @@
 .portfolio-container {
   display: flex;
   position: relative;
+  letter-spacing: 1px;
 }
 
 main {
@@ -12,8 +13,15 @@ main {
 
   .main-body {
     height: 75%;
-    padding: 5% 0;
+    padding: 2% 0;
     text-align: center;
+    overflow-y: auto;
+
+    .heading {
+      margin-bottom: 4rem;
+      padding: 0 3.6rem;
+      text-align: left;
+    }
   }
 }
 

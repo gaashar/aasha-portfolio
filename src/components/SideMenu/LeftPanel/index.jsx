@@ -11,6 +11,9 @@ export const LeftPanel = () => {
         <Link to="/skills">
           <li>SKILLS</li>
         </Link>
+        <Link to="/experience">
+          <li>WORK HISTORY</li>
+        </Link>
         <Link to="/projects">
           <li>PROJECTS</li>
         </Link>

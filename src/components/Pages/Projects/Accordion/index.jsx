@@ -12,7 +12,7 @@ export const Accordion = ({ handleToggle, active, project }) => {
           class={`accordion-toggle ${active === id ? "active" : ""}`}
           onClick={() => handleToggle(id)}
         >
-          <h5 class="title">{title}</h5>
+          <h3 class="title">{title}</h3>
           <i class="gg-chevron-down icon" />
         </div>
       </div>

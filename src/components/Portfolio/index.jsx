@@ -7,6 +7,7 @@ import { Routes, Route } from "react-router-dom";
 import { Skills } from "../Pages/Skills";
 import { Projects } from "../Pages/Projects";
 import { Contact } from "../Pages/Contact";
+import { Experience } from "../Pages/Experience";
 
 export const Portfolio = () => {
   return (
@@ -17,6 +18,7 @@ export const Portfolio = () => {
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/skills" element={<Skills />} />
+          <Route path="/experience" element={<Experience />} />
           <Route path="/projects" element={<Projects />} />
         </Routes>
         <Contact />
