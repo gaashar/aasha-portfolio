@@ -1,22 +1,38 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./index.scss";
 
-export const LeftPanel = () => {
+export const LeftPanel = ({ closeMenu }) => {
   return (
     <nav class="nav-container">
       <ul>
-        <Link to="/">
+        <NavLink
+          to="/"
+          className={({ isActive }) => (isActive ? "active" : undefined)}
+          onClick={() => closeMenu()}
+        >
           <li>HOME</li>
-        </Link>
-        <Link to="/skills">
+        </NavLink>
+        <NavLink
+          to="/skills"
+          className={({ isActive }) => (isActive ? "active" : undefined)}
+          onClick={() => closeMenu()}
+        >
           <li>SKILLS</li>
-        </Link>
-        <Link to="/experience">
+        </NavLink>
+        <NavLink
+          to="/experience"
+          className={({ isActive }) => (isActive ? "active" : undefined)}
+          onClick={() => closeMenu()}
+        >
           <li>WORK HISTORY</li>
-        </Link>
-        <Link to="/projects">
+        </NavLink>
+        <NavLink
+          to="/projects"
+          className={({ isActive }) => (isActive ? "active" : undefined)}
+          onClick={() => closeMenu()}
+        >
           <li>PROJECTS</li>
-        </Link>
+        </NavLink>
       </ul>
     </nav>
   );

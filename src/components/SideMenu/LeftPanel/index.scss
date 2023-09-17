@@ -10,7 +10,7 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 20px;
-    color: rgb(225, 241, 49);
+    color: black;
     font-size: larger;
     text-align: center;
 
@@ -41,6 +41,25 @@
     }
 
     li:hover:before {
+      width: 100%;
+    }
+  }
+}
+
+.nav-container {
+  a.active {
+    li:active {
+      color: white;
+    }
+
+    li.active:before {
+      position: absolute;
+      width: 0;
+      height: 3px;
+      background: #fff;
+      bottom: 0;
+      left: 0;
+      content: "";
       width: 100%;
     }
   }

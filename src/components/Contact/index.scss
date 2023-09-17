@@ -1,0 +1,30 @@
+.contact {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  height: 10%;
+  padding: 1rem;
+  .contact-group {
+    margin: 0 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+  }
+
+  .contact-group:hover {
+    color: #a283f0;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact {
+    .contact-group {
+      width: unset;
+      .hide-text {
+        display: none;
+      }
+    }
+  }
+}

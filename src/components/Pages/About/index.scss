@@ -1,4 +1,46 @@
 .about-section {
   margin: 8% auto;
   width: 75%;
+
+  h3 {
+    font-size: 2.8rem;
+  }
+
+  h4 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  .accent {
+    color: #a283f0;
+  }
+  .my-work {
+    cursor: pointer;
+    text-decoration: none;
+    text-decoration-style: unset;
+    margin-top: 35px;
+
+    button {
+      width: 15%;
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .about-section .my-work button {
+    width: 25%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .about-section .my-work button {
+    width: 35%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .about-section .my-work button {
+    width: 50%;
+  }
 }

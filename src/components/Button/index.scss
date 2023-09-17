@@ -1,0 +1,15 @@
+.accent-button {
+  height: 32px;
+  width: 100px;
+  border: 0.01rem solid #a283f0;
+  border-radius: 5%;
+  background: #a283f0;
+  cursor: pointer;
+  color: white;
+}
+
+.accent-button:hover {
+  cursor: pointer;
+  background: white;
+  color: #a283f0;
+}

@@ -8,7 +8,7 @@
     display: flex;
     width: 50%;
     justify-content: flex-end;
-    padding: 12px 30px;
+    padding: 10px 30px;
 
     .history-card-content {
       box-shadow: -2px 3px 5px rgba(0, 0, 0, 0.3);
@@ -33,6 +33,9 @@
         h4 {
           margin: 0;
           margin-right: 12px;
+        }
+        h4 {
+          font-size: unset;
         }
       }
 
@@ -134,5 +137,30 @@
 @media only screen and (max-width: 1023px) {
   .history-card-content {
     max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .timeline-container::after {
+    display: none;
+  }
+  .timeline-container {
+    .history-card {
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 100%;
+      .history-card-content {
+        box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.3);
+        .circle {
+          display: none;
+        }
+        .company-container {
+          justify-content: flex-start;
+        }
+      }
+      .history-card-content::after {
+        display: none;
+      }
+    }
   }
 }

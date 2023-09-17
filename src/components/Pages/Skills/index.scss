@@ -4,12 +4,16 @@
   align-items: center;
   flex-wrap: wrap;
   flex-direction: row;
-  .card {
+  .skill-card {
     padding: 10px 25px;
     border: 1px solid #a283f0;
     border-radius: 8px;
-    width: 315px;
+    width: 400px;
     height: 360px;
+    margin: 20px 0;
+    h3 {
+      font-size: 1.2 rem;
+    }
     ul {
       text-align: left;
       padding: 10px 0 0 12px;
@@ -17,10 +21,18 @@
       flex-direction: column;
       justify-content: center;
       height: 250px;
+      line-height: 25px;
       li {
         list-style: none;
-        margin-bottom: 16px;
+        padding: 8px 0;
+        font-size: 1rem;
       }
     }
+  }
+}
+
+@media (max-width: 600px) {
+  .skills {
+    flex-direction: column;
   }
 }

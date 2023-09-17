@@ -15,7 +15,7 @@ export const SideMenu = () => {
         <div class="photo-container">
           <section></section>
         </div>
-        <LeftPanel />
+        <LeftPanel closeMenu={handleMenuClose} />
       </div>
     </aside>
   );

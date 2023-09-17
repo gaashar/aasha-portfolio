@@ -1,13 +1,12 @@
-import { Header } from "../Header";
 import { About } from "../Pages/About";
-import { SideMenu } from "../SideMenu";
-import "./index.scss";
-
-import { Routes, Route } from "react-router-dom";
-import { Skills } from "../Pages/Skills";
-import { Projects } from "../Pages/Projects";
-import { Contact } from "../Pages/Contact";
+import { Contact } from "../Contact";
 import { Experience } from "../Pages/Experience";
+import { Header } from "../Header";
+import { Projects } from "../Pages/Projects";
+import { Routes, Route } from "react-router-dom";
+import { SideMenu } from "../SideMenu";
+import { Skills } from "../Pages/Skills";
+import "./index.scss";
 
 export const Portfolio = () => {
   return (
