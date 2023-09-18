@@ -1,16 +1,20 @@
-export const skillsInfo = [
-  {
-    title: "Technical Expertise",
+export const skillsInfo = {
+  technical: {
+    title: "TECHNICAL EXPERTISE",
     groupItems: [
-      { key: 0, value: "JavaScript" },
-      { key: 1, value: "React" },
-      { key: 2, value: "Node" },
-      { key: 3, value: "HTML5 and CSS3" },
-      { key: 4, value: "GraphQL, RESTful Webservices" },
-      { key: 5, value: "Jest, Enzyme, React Testing Library" },
+      { key: 3, value: "HTML5, CSS3", percentage: "80%" },
+      { key: 0, value: "JavaScript", percentage: "70%" },
+      { key: 1, value: "React", percentage: "80%" },
+      { key: 2, value: "Node", percentage: "50%" },
+      { key: 4, value: "GraphQL, RESTful Webservices", percentage: "80%" },
+      {
+        key: 5,
+        value: "Jest, Enzyme, React Testing Library",
+        percentage: "80%",
+      },
     ],
   },
-  {
+  experience: {
     title: "Experience in",
     groupItems: [
       { key: 0, value: "Single Page Applications (SPA) " },
@@ -20,4 +24,4 @@ export const skillsInfo = [
       { key: 4, value: "Unit Testing & Debugging" },
     ],
   },
-];
+};

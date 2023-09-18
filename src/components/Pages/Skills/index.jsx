@@ -1,6 +1,7 @@
 import { Card } from "./Card";
 import { skillsInfo } from "./SkillsInfo";
 import "./index.scss";
+import { ProgressCard } from "./ProgressCard";
 
 export const Skills = () => {
   return (
@@ -10,9 +11,8 @@ export const Skills = () => {
         <p>Tech stacks I have worked on, </p>
       </div>
       <div className="skills">
-        {skillsInfo.map((skills) => (
-          <Card info={skills} key={skills.title} />
-        ))}
+        <ProgressCard skills={skillsInfo.technical} />
+        <Card info={skillsInfo.experience} />
       </div>
     </div>
   );
