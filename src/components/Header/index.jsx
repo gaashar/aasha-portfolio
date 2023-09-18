@@ -4,7 +4,7 @@ import { Button } from "../Button";
 
 export const Header = () => {
   return (
-    <div class="header">
+    <div className="header">
       <HamBurgerMenu />
       <Button path={"/assets/Aasha_Resume.pdf"} text={"Resume"} />
     </div>

@@ -15,17 +15,17 @@ export const Projects = () => {
   };
 
   return (
-    <div class="main-body">
-      <div class="heading">
+    <div className="main-body">
+      <div className="heading">
         <h3>PROJECTS</h3>
-        <p>
+        <span>
           List of React based projects I worked on, as part of my previous
           employer and also a Sample UI project I built for getting familiar
           with frontend tach stacks.
-        </p>
+        </span>
       </div>
-      <div class="card">
-        <div class="card-body">
+      <div className="card">
+        <div className="card-body">
           {projectList.map((project) => {
             return (
               <Accordion

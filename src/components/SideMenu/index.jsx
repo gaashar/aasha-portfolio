@@ -1,5 +1,5 @@
-import "./SideMenu.scss";
 import { LeftPanel } from "./LeftPanel";
+import "./index.scss";
 
 export const SideMenu = () => {
   const handleMenuClose = () => {
@@ -7,12 +7,12 @@ export const SideMenu = () => {
     element.classList.remove("open");
   };
   return (
-    <aside class="sidebar-container" id="sideMenu">
-      <button class="closeButton" onClick={() => handleMenuClose()}>
-        <i class="gg-close" />
+    <aside className="sidebar-container" id="sideMenu">
+      <button className="closeButton" onClick={() => handleMenuClose()}>
+        <i className="gg-close" />
       </button>
-      <div class="left-menu">
-        <div class="photo-container">
+      <div className="left-menu">
+        <div className="photo-container">
           <section></section>
         </div>
         <LeftPanel closeMenu={handleMenuClose} />

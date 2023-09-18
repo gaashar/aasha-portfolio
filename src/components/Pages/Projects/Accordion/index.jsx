@@ -6,27 +6,27 @@ export const Accordion = ({ handleToggle, active, project }) => {
   const { title, id, content } = project;
 
   return (
-    <div class="accordion-card">
-      <div class="accordion-header">
+    <div className="accordion-card">
+      <div className="accordion-header">
         <div
-          class={`accordion-toggle ${active === id ? "active" : ""}`}
+          className={`accordion-toggle ${active === id ? "active" : ""}`}
           onClick={() => handleToggle(id)}
         >
-          <h3 class="title">{title}</h3>
-          <i class="gg-chevron-down icon" />
+          <h3 className="title">{title}</h3>
+          <i className="gg-chevron-down icon" />
         </div>
       </div>
       <div
         ref={contentEl}
-        class={`accordion-collapse ${active === id ? "show" : ""}`}
+        className={`accordion-collapse ${active === id ? "show" : ""}`}
         style={
           active === id
             ? { height: contentEl.current.scrollHeight }
             : { height: "0px" }
         }
       >
-        <div class="accordion-content">
-          <p class="content">{content}</p>
+        <div className="accordion-content">
+          <span className="content">{content}</span>
         </div>
       </div>
     </div>

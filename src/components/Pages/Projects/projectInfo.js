@@ -8,7 +8,7 @@ export const projectList = [
           Platform for building Data Visualization Dashboards for Data Analytics
           and Validating Performance - Healthcare Domain
         </h3>
-        <p>
+        <span>
           Platform that enables users to build Dashboards, based on the metrics
           thats available in the Database. The Frontend tech stack includes,
           <ul>
@@ -30,7 +30,7 @@ export const projectList = [
             <li>Sequelize</li>
             <li>PostgreSQL (metadata)</li>
           </ul>
-        </p>
+        </span>
       </>
     ),
   },

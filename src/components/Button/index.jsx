@@ -5,7 +5,7 @@ import "./index.scss";
 export const Button = ({ path, text }) => {
   return (
     <Link to={path} target="_blank" download>
-      <button class="accent-button">{text}</button>
+      <button className="accent-button">{text}</button>
     </Link>
   );
 };

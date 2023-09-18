@@ -10,7 +10,7 @@ import "./index.scss";
 
 export const Portfolio = () => {
   return (
-    <div class="portfolio-container">
+    <div className="portfolio-container">
       <SideMenu />
       <main>
         <Header />

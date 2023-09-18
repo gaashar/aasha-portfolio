@@ -3,7 +3,7 @@ import "./index.scss";
 
 export const LeftPanel = ({ closeMenu }) => {
   return (
-    <nav class="nav-container">
+    <nav className="nav-container">
       <ul>
         <NavLink
           to="/"

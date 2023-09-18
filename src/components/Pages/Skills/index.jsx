@@ -4,14 +4,14 @@ import "./index.scss";
 
 export const Skills = () => {
   return (
-    <div class="main-body">
-      <div class="heading">
+    <div className="main-body">
+      <div className="heading">
         <h3>SKILLS</h3>
         <p>Tech stacks I have worked on, </p>
       </div>
-      <div class="skills">
+      <div className="skills">
         {skillsInfo.map((skills) => (
-          <Card info={skills} />
+          <Card info={skills} key={skills.title} />
         ))}
       </div>
     </div>
