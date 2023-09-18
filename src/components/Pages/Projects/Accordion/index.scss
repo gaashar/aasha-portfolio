@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
-    background-color: #ebedf0;
+    background-color: rgba(0, 0, 0, 0.05);
     transition: 0.3s;
     padding: 1rem;
 
@@ -17,7 +17,7 @@
       font-size: 1.3rem;
       position: relative;
       margin: 0;
-      color: #475f7b;
+      color: #a283f0;
       transition: 0.3s;
       text-align: left;
       line-height: 1.2;
@@ -26,13 +26,13 @@
     .icon {
       position: relative;
       top: 2px;
-      color: #475f7b;
+      color: #a283f0;
       transition: 0.35s;
       font-size: 12px;
     }
   }
   .active {
-    background-color: #5a8dee;
+    background-color: #a283f0;
     .title {
       color: #fff;
     }
