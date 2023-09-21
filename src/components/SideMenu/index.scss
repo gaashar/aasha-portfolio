@@ -72,6 +72,17 @@
     }
   }
 }
+@media (min-width: 1440px) {
+  .sidebar-container {
+    position: unset;
+    width: 18%;
+    transform: translate(0);
+
+    .closeButton {
+      visibility: hidden;
+    }
+  }
+}
 
 @media (max-width: 768px) {
   .sidebar-container .left-menu .photo-container {

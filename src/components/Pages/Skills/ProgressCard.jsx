@@ -10,7 +10,7 @@ export const ProgressCard = ({ skills }) => {
   return (
     <div className="skill-card">
       <div className="skills-header">
-        <i class="fa-solid fa-code fa-bounce no-repeat fa-lg fa-spin-hover" />
+        <i class="fa-solid fa-code fa-bounce no-repeat fa-lg" />
         <h3 className="title">{skills.title}</h3>
       </div>
       {skills.groupItems.map((skill) => {
