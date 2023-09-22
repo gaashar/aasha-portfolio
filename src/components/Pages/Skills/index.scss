@@ -170,6 +170,15 @@
     }
     .experience-list {
       font-size: 15px;
+      .title {
+        font-size: 15px;
+      }
+      .plus {
+        width: 15px;
+        i {
+          width: 16px;
+        }
+      }
       li .description {
         font-size: 13px;
       }

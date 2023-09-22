@@ -5,8 +5,6 @@ export const Card = ({ info }) => {
   const [selected, setSelected] = useState(0);
 
   const toggleAccordion = (currentIndex) => {
-    if (currentIndex === selected) return setSelected(null);
-
     setSelected(currentIndex);
   };
 
@@ -22,10 +20,10 @@ export const Card = ({ info }) => {
           <li>
             <div className="title" onClick={() => toggleAccordion(key)}>
               {value}
-              {key === selected ? (
-                <i class="gg-math-minus"></i>
-              ) : (
-                <i className="gg-math-plus" />
+              {key !== selected && (
+                <div className="plus">
+                  <i className="gg-math-plus" />
+                </div>
               )}
             </div>
             <div
@@ -38,18 +36,6 @@ export const Card = ({ info }) => {
                 molestiae, fugiat tempora quasi consequuntur culpa sunt.
               </p>
             </div>
-            {/* <div>
-              <div className="experience-section">
-                Single Page Applications (SPA)
-                <i className="gg-math-plus" />
-              </div>
-              <div className="description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-                perspiciatis explicabo delectus. Consequatur natus alias ut
-                exercitationem incidunt soluta recusandae quisquam odit et
-                molestiae, fugiat tempora quasi consequuntur culpa sunt.
-              </div>
-            </div> */}
           </li>
         ))}
       </ul>
