@@ -1,18 +1,18 @@
 import "./index.scss";
-import { Accordion } from "./Accordion";
-import { useState } from "react";
+import { Tile } from "./Tile";
+// import { useState } from "react";
 import { projectList } from "./projectInfo";
 
 export const Projects = () => {
-  const [active, setActive] = useState(null);
+  // const [active, setActive] = useState(null);
 
-  const handleToggle = (index) => {
-    if (active === index) {
-      setActive(null);
-    } else {
-      setActive(index);
-    }
-  };
+  // const handleToggle = (index) => {
+  //   if (active === index) {
+  //     setActive(null);
+  //   } else {
+  //     setActive(index);
+  //   }
+  // };
 
   return (
     <div className="main-body">
@@ -24,7 +24,13 @@ export const Projects = () => {
           with frontend tach stacks.
         </span>
       </div>
-      <div className="card">
+      <div className="project-list">
+        {projectList.map((project) => (
+          <Tile project={project} />
+        ))}
+      </div>
+
+      {/* <div className="card">
         <div className="card-body">
           {projectList.map((project) => {
             return (
@@ -37,7 +43,7 @@ export const Projects = () => {
             );
           })}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
