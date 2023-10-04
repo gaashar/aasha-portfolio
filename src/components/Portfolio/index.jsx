@@ -20,8 +20,8 @@ export const Portfolio = () => {
           <Route path="/experience" element={<Experience />} />
           <Route path="/projects" element={<Projects />} />
         </Routes>
+        <div className="footer"></div>
       </main>
-      <div></div>
     </div>
   );
 };

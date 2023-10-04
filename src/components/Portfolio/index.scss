@@ -15,7 +15,8 @@ main {
   .main-body {
     text-align: center;
     overflow-y: auto;
-    height: 85%;
+    flex-grow: 1;
+    min-height: 0;
 
     .heading {
       margin-bottom: 1rem;
@@ -31,6 +32,10 @@ main {
         font-size: 1.2rem;
       }
     }
+  }
+
+  .footer {
+    flex: 0 0 10%;
   }
 }
 
