@@ -23,9 +23,9 @@ export const projectList = [
       "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
       sassLogo,
     ],
-    title: "Musicaly - [Sample project]",
+    title: "Musicaly - [Pet Project]",
     description:
-      "lorem ipsum Irure voluptate ipsum in excepteur et. Commodo sunt id fugiat fugiat minim voluptate excepteur amet nostrud dolor dolor deserunt ea. Nostrud qui laboris nulla deserunt magna sint officia. Sit consequat quis deserunt fugiat aliqua est ea proident eiusmod ad duis labore ad occaecat.",
+      "I had a blast crafting this React SPA website that places a spotlight on CSS layouts, responsiveness, and seamless navigation with react-router. It was a fantastic journey creating this engaging and exceptionally user-friendly design, all while diving headfirst into the fascinating world of CSS during my early adventures in frontend UI development.",
     link: "https://aasha-portfolio.web.app",
     gitHub: "https://github.com/gaashar/aasha-portfolio",
   },

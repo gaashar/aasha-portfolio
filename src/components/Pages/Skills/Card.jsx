@@ -16,7 +16,7 @@ export const Card = ({ info }) => {
       </div>
 
       <ul className="experience-list">
-        {info.groupItems.map(({ key, value }) => (
+        {info.groupItems.map(({ key, value, description }) => (
           <li>
             <div className="title" onClick={() => toggleAccordion(key)}>
               {value}
@@ -29,12 +29,7 @@ export const Card = ({ info }) => {
             <div
               className={key === selected ? "description show" : "description"}
             >
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-                perspiciatis explicabo delectus. Consequatur natus alias ut
-                exercitationem incidunt soluta recusandae quisquam odit et
-                molestiae, fugiat tempora quasi consequuntur culpa sunt.
-              </p>
+              <p>{description}</p>
             </div>
           </li>
         ))}

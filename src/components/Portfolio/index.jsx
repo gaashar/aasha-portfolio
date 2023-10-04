@@ -20,7 +20,6 @@ export const Portfolio = () => {
           <Route path="/experience" element={<Experience />} />
           <Route path="/projects" element={<Projects />} />
         </Routes>
-        <Contact />
       </main>
     </div>
   );

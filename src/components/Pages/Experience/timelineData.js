@@ -22,7 +22,7 @@ export const timelineData = [
     project: "FritoLay",
     description:
       "Worked in multiple applications based on JAVA, Oracle & Informatica that takes care of planning and fleet part of the supply chain management",
-    date: "11/2015 – 10/2017",
+    date: "05/2016 – 10/2017",
     logo: "",
   },
 ];

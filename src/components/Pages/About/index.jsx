@@ -11,10 +11,12 @@ export const About = () => {
         <h4>
           Hello! I am <span className="accent">AASHA</span>
         </h4>
+        <p>I build websites that look great and work smooth like butter.</p>
         <p>
-          I build websites that look great and work smoothly. I transform
-          designs into websites that are easy to use.
+          I speak fluent HTML, CSS and Javascript, transforming your visions
+          into stunning web reality.
         </p>
+        <p> Explore my code-filled journey!</p>
         <div className="my-work">
           <Link to="/projects">
             <button className="accent-button">See My Work</button>

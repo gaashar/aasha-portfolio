@@ -1,4 +1,5 @@
 import { LeftPanel } from "./LeftPanel";
+import { Contact } from "../Contact";
 import "./index.scss";
 
 export const SideMenu = () => {
@@ -16,6 +17,7 @@ export const SideMenu = () => {
           <section></section>
         </div>
         <LeftPanel closeMenu={handleMenuClose} />
+        <Contact />
       </div>
     </aside>
   );

@@ -21,15 +21,15 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    padding: 30% 0;
+    padding: 5% 0;
 
     .photo-container {
-      flex-basis: 50%;
+      flex-basis: 40%;
       height: 100%;
       max-width: 140px;
       width: 135px;
       margin: auto;
-      padding: 40px 0;
+      padding: 2.5rem 0;
 
       section {
         height: 100%;
@@ -55,7 +55,7 @@
 
 @media only screen and (min-width: 769px) {
   .sidebar-container .left-menu .photo-container {
-    flex-basis: 50%;
+    flex-basis: 40%;
     max-width: 200px;
     width: 200px;
   }
@@ -93,9 +93,9 @@
 }
 @media (max-width: 500px) {
   .sidebar-container .left-menu {
-    padding: 55% 0;
+    padding: 20% 0;
     .photo-container {
-      flex-basis: 30%;
+      flex-basis: 25%;
       max-width: 135px;
       width: 130px;
     }
