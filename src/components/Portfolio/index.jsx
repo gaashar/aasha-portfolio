@@ -21,6 +21,7 @@ export const Portfolio = () => {
           <Route path="/projects" element={<Projects />} />
         </Routes>
       </main>
+      <div></div>
     </div>
   );
 };
