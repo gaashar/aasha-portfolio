@@ -20,7 +20,9 @@ export const Tile = ({ project }) => {
         <div className="link">
           <div className="link-group">
             <i class="fa-solid fa-link"></i>
-            <Link to={project.link}>View Project</Link>
+            <Link to={project.link} target="_blank">
+              View Project
+            </Link>
           </div>
         </div>
       )}
