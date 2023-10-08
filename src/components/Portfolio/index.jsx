@@ -1,5 +1,4 @@
 import { About } from "../Pages/About";
-import { Contact } from "../Contact";
 import { Experience } from "../Pages/Experience";
 import { Header } from "../Header";
 import { Projects } from "../Pages/Projects";

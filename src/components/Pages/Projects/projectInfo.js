@@ -26,7 +26,7 @@ export const projectList = [
     title: "Musicaly - [Pet Project]",
     description:
       "I had a blast crafting this React SPA website that places a spotlight on CSS layouts, responsiveness, and seamless navigation with react-router. It was a fantastic journey creating this engaging and exceptionally user-friendly design, all while diving headfirst into the fascinating world of CSS during my early adventures in frontend UI development.",
-    link: "https://aasha-portfolio.web.app",
+    link: "https://my-musicly.web.app/",
     gitHub: "https://github.com/gaashar/aasha-portfolio",
   },
 ];
