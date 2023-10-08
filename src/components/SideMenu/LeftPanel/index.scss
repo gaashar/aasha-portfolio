@@ -29,7 +29,7 @@
       color: white;
     }
 
-    li:before {
+    li::before {
       position: absolute;
       width: 0;
       height: 3px;
@@ -40,27 +40,16 @@
       transition: all 0.7s ease-in-out;
     }
 
-    li:hover:before {
+    li:hover::before {
       width: 100%;
     }
-  }
-}
 
-.nav-container {
-  a.active {
-    li:active {
+    .active {
       color: white;
-    }
 
-    li.active:before {
-      position: absolute;
-      width: 0;
-      height: 3px;
-      background: #fff;
-      bottom: 0;
-      left: 0;
-      content: "";
-      width: 100%;
+      li::before {
+        width: 100%;
+      }
     }
   }
 }
