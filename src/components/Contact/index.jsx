@@ -5,12 +5,6 @@ export const Contact = () => {
   return (
     <>
       <div className="contact">
-        <Link to="https://github.com/gaashar" target="_blank">
-          <div className="contact-group">
-            <i className="fa-brands fa-github"></i>
-            <p className="hide-text">GitHub</p>
-          </div>
-        </Link>
         <Link
           to="https://www.linkedin.com/in/aasha-govindaraj-831a00146/"
           target="_blank"
