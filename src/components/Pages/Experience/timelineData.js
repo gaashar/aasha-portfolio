@@ -5,7 +5,7 @@ export const timelineData = [
     project: "Athena Intelligence Product",
     description:
       "Platform for building customizable data visualization dashboards showcasing client performance and data analytics",
-    date: "06/2019 – PRESENT",
+    date: "06/2019 – 01/2024",
     logo: "",
   },
   {
