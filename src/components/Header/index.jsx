@@ -6,7 +6,7 @@ export const Header = () => {
   return (
     <div className="header">
       <HamBurgerMenu />
-      <Button path={"/assets/Aasha_Resume.pdf"} text={"Resume"} />
+      <Button path={"/assets/AashaGovindaraj_Resume.pdf"} text={"Resume"} />
     </div>
   );
 };
